@@ -1,0 +1,5 @@
+Terminal command to test signup route
+echo '{"username":"username", "password":"password", "role":"role"}' | http post :3000/signup
+
+Terminal command to test signin route
+http post :3000/signin -a role:password

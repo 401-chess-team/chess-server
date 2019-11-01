@@ -7,8 +7,10 @@ const schema = require('./categories-schema.js');
  * Class representing a Category.
  * @extends Model
  */
-class Categories extends Model {
-  constructor() { super(schema); }
+class Chess extends Model {
+  constructor() {
+    super(schema);
+  }
 }
 
-module.exports = Categories;
+module.exports = Chess;

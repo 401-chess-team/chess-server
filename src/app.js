@@ -13,10 +13,10 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 // Esoteric Resources
-const errorHandler = require( `${cwd}/src/middleware/500.js`);
-const notFound = require( `${cwd}/src/middleware/404.js` );
-const v1Router = require( `${cwd}/src/api/v1.js` );
-const authRouter = require( `${cwd}/src/auth/router.js` );
+const errorHandler = require(`${cwd}/src/middleware/500.js`);
+const notFound = require(`${cwd}/src/middleware/404.js`);
+const v1Router = require(`${cwd}/src/api/v1.js`);
+const authRouter = require(`${cwd}/src/auth/router.js`);
 const swagger = require(`${cwd}/src/api/swagger.js`);
 
 // Prepare the express app
@@ -27,7 +27,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.use(express.json());
-app.use(express.urlencoded({extended:true}));
+app.use(express.urlencoded({ extended: true }));
 
 // Static Routes
 app.use('/docs', express.static('docs'));
@@ -50,4 +50,4 @@ let start = (port = process.env.PORT) => {
   });
 };
 
-module.exports = {app,start};
+module.exports = { app, start };
