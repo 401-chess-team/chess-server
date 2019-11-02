@@ -2,7 +2,6 @@
 
 /** Class representing a generic mongo model. */
 class Model {
-
   /**
    * Model Constructor
    * @param schema {object} - mongo schema
@@ -38,9 +37,9 @@ class Model {
    * @returns {*}
    */
   create(record) {
-    console.log('r',record);
+    console.log('record', record);
     let newRecord = new this.schema(record);
-    console.log('n', newRecord);
+    console.log('newRecord', newRecord);
     return newRecord.save();
   }
 
@@ -62,7 +61,6 @@ class Model {
   delete(_id) {
     return this.schema.findByIdAndDelete(_id);
   }
-
 }
 
 module.exports = Model;
