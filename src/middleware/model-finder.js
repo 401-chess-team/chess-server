@@ -21,6 +21,7 @@ const modelsFolder = `${__dirname}/../models`;
  * @param next {function} Express middleware next()
  */
 const load = (req, res, next) => {
+  console.log('model finder is here');
   let modelName = req.params.model.replace(/[^a-z0-9-_]/gi, '');
   const Model = require(`../models/${modelName}/${modelName}-model.js`);
   req.model = new Model();

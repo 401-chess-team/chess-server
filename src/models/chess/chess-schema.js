@@ -2,17 +2,24 @@
 
 const mongoose = require('mongoose');
 
-const chess = mongoose.Schema({
-  restRefId: { type: String },
-  createdBy: { type: String },
-  title: { type: String },
-  options: { type: Object, blackbox: true },
+const chessBoard = mongoose.Schema({
+  moves: [[]],
+  players: [
+    {
+      white: { type: String },
+      black: { type: String },
+    },
+  ],
+  games: [
+    {
+      _id: { type: Number },
+    },
+  ],
   createdAt: { type: Date },
+  options: { type: Object, blackbox: true },
 });
 
-console.log(chess);
-
-chess.pre('find', function() {
+chessBoard.pre('find', function() {
   try {
     this.populate('board');
   } catch (e) {
@@ -20,4 +27,18 @@ chess.pre('find', function() {
   }
 });
 
-module.exports = mongoose.model('chess', chess);
+chessBoard.post('save', function(error) {
+  console.log('The board has been saved');
+  if (error) {
+    console.error(error);
+  }
+});
+
+chessBoard.get('get data', function(error) {
+  console.log('getting the data');
+  if (error) {
+    console.log(error);
+  }
+});
+
+module.exports = mongoose.model('board', chessBoard);

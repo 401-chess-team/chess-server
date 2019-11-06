@@ -29,16 +29,21 @@ router.get('/api/v1/:model/schema', (request, response) => {
 });
 
 // API Routes
-router.post('/api/v1/board', nonSense);
+router.get('/', express.static('public'));
 
-function nonSense(req, res, next) {
-  res.send(req.body);
-}
+//Posts the chess board
+router.post('/api/v1/:model', handlePost);
+
+//Gets the chess player
+router.get('/api/v1/:model', handleGetAll);
+
+//Gets the chess board
+router.get('/api/v1/:model/:uuid', handleGetAll);
 
 // Route Handlers
 function handleGetAll(request, response, next) {
   request.model
-    .post()
+    .get()
     .then(data => {
       const output = {
         count: data.length,
