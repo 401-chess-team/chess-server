@@ -3,12 +3,20 @@
 const mongoose = require('mongoose');
 
 const chessBoard = mongoose.Schema({
-  title: { type: String },
-  whitePlayer: { type: String },
-  blackPlayer: { type: String },
-  uuid: { type: String },
-  options: { type: Object, blackbox: true },
+  moves: [[]],
+  players: [
+    {
+      white: { type: String },
+      black: { type: String },
+    },
+  ],
+  games: [
+    {
+      _id: { type: Number },
+    },
+  ],
   createdAt: { type: Date },
+  options: { type: Object, blackbox: true },
 });
 
 chessBoard.pre('find', function() {
@@ -19,11 +27,18 @@ chessBoard.pre('find', function() {
   }
 });
 
-chessBoard.pre('save', function(error) {
+chessBoard.post('save', function(error) {
   console.log('The board has been saved');
   if (error) {
     console.error(error);
   }
 });
 
-module.exports = mongoose.model('chess board', chessBoard);
+chessBoard.get('get data', function(error) {
+  console.log('getting the data');
+  if (error) {
+    console.log(error);
+  }
+});
+
+module.exports = mongoose.model('board', chessBoard);

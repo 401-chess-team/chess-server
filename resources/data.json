@@ -1,0 +1,323 @@
+{
+  "board": [
+    [{
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Rook",
+        "icon": "/static/media/wr.703d4d39.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Knight",
+        "icon": "/static/media/wkn.d49e4dfb.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Bishop",
+        "icon": "/static/media/wb.b3a825b2.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "King",
+        "icon": "/static/media/wk.526337c8.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Queen",
+        "icon": "/static/media/wq.feda46b7.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Bishop",
+        "icon": "/static/media/wb.b3a825b2.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Knight",
+        "icon": "/static/media/wkn.d49e4dfb.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Rook",
+        "icon": "/static/media/wr.703d4d39.svg"
+      }
+    ],
+    [{
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "white",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/wp.3be2d702.svg",
+        "monitoredSpaces": []
+      }
+    ],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [{
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Pawn",
+        "icon": "/static/media/bp.ff3b36e1.svg",
+        "monitoredSpaces": []
+      }
+    ],
+    [{
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Rook",
+        "icon": "/static/media/br.4ed3fb29.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Knight",
+        "icon": "/static/media/bkn.f23fa81d.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Bishop",
+        "icon": "/static/media/bb.c7526f0c.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "King",
+        "icon": "/static/media/bk.98d7609a.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Queen",
+        "icon": "/static/media/bq.3a9e67d6.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Bishop",
+        "icon": "/static/media/bb.c7526f0c.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Knight",
+        "icon": "/static/media/bkn.f23fa81d.svg"
+      },
+      {
+        "currentSpace": [],
+        "startingSpace": [],
+        "color": "black",
+        "availableMoves": [],
+        "position": [],
+        "name": "Rook",
+        "icon": "/static/media/br.4ed3fb29.svg"
+      }
+    ]
+  ],
+  "players": [{
+    "white": "player username or uuid",
+    "black": "player username or uuid"
+  }],
+  "games": [{
+    "_id": 1235467879997363536
+  }]
+}
