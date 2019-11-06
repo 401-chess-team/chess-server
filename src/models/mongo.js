@@ -37,9 +37,10 @@ class Model {
    * @returns {*}
    */
   create(record) {
-    console.log('record', record);
-    let newRecord = new this.schema(record);
+    console.log('moves', record);
+    let newRecord = new this.schema({ moves: record });
     console.log('newRecord', newRecord);
+    console.log('saved', newRecord.save);
     return newRecord.save();
   }
 
