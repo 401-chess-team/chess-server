@@ -35,7 +35,7 @@ router.get('/', express.static('public'));
 router.post('/api/v1/:model', handlePost);
 
 //Gets the chess player
-router.get('/api/v1/:model', handleGetAll);
+router.get('/api/v1/:model', handleGetOne);
 
 //Gets the chess board
 router.get('/api/v1/:model/:uuid', handleGetAll);
@@ -57,7 +57,7 @@ function handleGetAll(request, response, next) {
 function handleGetOne(request, response, next) {
   request.model
     .get(request.params.id)
-    .then(result => response.status(200).json(result[0]))
+    .then(result => response.status(200).json(result[result.length - 1].moves))
     .catch(next);
 }
 
