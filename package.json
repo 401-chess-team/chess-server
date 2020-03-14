@@ -43,7 +43,7 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
-    "acorn": "7.1.0",
+    "acorn": "7.1.1",
     "eslint": "6.6.0"
   }
 }
